@@ -3,16 +3,25 @@
 .containerImage {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
   }
   
+  /* .opa {
+    opacity: .9
+  } */
 
 /* Centered text */
 .centeredText {
     position: absolute;
-    top: 50%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  .blackback {
+
+    background-color: rgba(255, 255, 255, .5);
   }
 
 .body {
@@ -186,7 +195,7 @@ main {
   }
 
   .cursors {
-    cursor: url(https://tianahorn.com/images/cursor.png), auto ;
+    cursor: url(https://dukezetas.com/images/cursor.png), auto ;
   }
 
 
@@ -210,15 +219,14 @@ main {
 }
 
 .slider {
-  width: 100%;
 
   position:relative;
 
 }
 .slide1,.slide2,.slide3,.slide4 {
-  width: 50%;
-  margin-right:25%;
-  margin-left:25%;
+  width: 100%;
+  margin-right:0%;
+  margin-left:0%;
   position: absolute;
 
 }

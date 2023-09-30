@@ -8,7 +8,7 @@
 .containerImage {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
   }
   
 
@@ -19,6 +19,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+  .blackback {
+    background-color: rgba(255, 255, 255, .5);
+  }
+
   .main {
     top:0;
   }
@@ -189,7 +195,7 @@ main {
   }
 
   .cursors {
-    cursor: url(https://tianahorn.com/images/cursor.png), auto ;
+    cursor: url(https://dukezetas.com/images/cursor.png), auto ;
   }
 
 
